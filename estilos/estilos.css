@@ -8,19 +8,22 @@ body{
 
     }
     #cabecera{
-        background-color: #48a6f7;
+        background: #48a6f7 url(../imagenes/dragon.png) ;
+        background-size: 30px;
+        background-repeat: no-repeat;
         box-shadow: 0px 2px 20px 0px #c11b87;
         -moz-box-direction: reverse;
         color: white;
         font-weight: bold;
         margin: 0;
-        padding: 0.5em;
+        padding: 0.5em 0 0.5em 2em
         }
         #cabecera #tagline{
             padding: 0 0 0 4em;
             font-size: normal;
             font-size: 0.90em;
             color:white
+            
         }
     #container{
         width: 70%;
